@@ -30,6 +30,7 @@ Even if this demo works on its own via bluetooth, to fully appreciate the demo w
 ## How the app works
 The car receives commands via bluetooth and via the Arduino IDE serial monitor.
 It is user choice how to give those commands.
+
 The car has 3 modes: STOPPED, AUTO and MANUAL. It starts in STOPPED mode.
 In this state (STOPPED mode), the accepted command are:
 1. "follow line" ("fwln" for short), in which case the car enters AUTO mode
@@ -54,10 +55,13 @@ highest priorities since have control of the car.
                             based on the current modes and user commands,
                             controls the motors and their available speeds,
                             making the car move.
-                            
+
+
 Credits: A.Mascitti, M.Marinoni
+
 This code is based on the one by Stefano Maugeri,
 https://www.hackster.io/stefano_maugeri/autonomous-line-follower-with-seeed-shield-bot-1-2-and-arte-4faf68
+
 More info available at the paper [paper under revision].
 
 ## Tests
