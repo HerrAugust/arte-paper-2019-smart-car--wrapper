@@ -323,7 +323,7 @@ void follow_line() {
 
 void loop() {
   
-  if (arteEnabled() == 0 || arteSetupDone() == 0) {
+  if (arteEnabled() == 0) {
     sprintln("Error, ARTe not enabled. Code not safe!");
   }
   delay(200);
